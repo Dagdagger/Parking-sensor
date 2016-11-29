@@ -1,0 +1,89 @@
+body {
+    font-family: "verdana";
+}
+
+h1 {
+    color: #444444;
+    text-align: center
+}
+
+.spot {
+    cursor: pointer;
+    display: inline-block;
+    padding: .4em;
+    margin: .2em;
+    border-radius: 20%;
+}
+
+.spot:hover {
+    animation-name: animate;
+    animation-duration: 250ms;
+    background-color: cornsilk;
+}
+
+.spot:hover+span+.parkinginfo {
+    opacity: 1;
+    animation: fade 350ms linear;
+    display: block;
+}
+
+ul li {
+    list-style: none;
+}
+
+.parkinginfo {
+    width: 200px;
+    float: right;
+    display: none;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+}
+
+.flash {
+    animation: lightup 1.5s linear;
+}
+
+.light {
+    width: 20px;
+    display: inline-block;
+}
+
+.image {
+    margin-top: 10px;
+    width: 60%;
+    height: auto;
+    float: right;
+}
+
+@keyframes animate {
+    0% {
+        background-color: lightcyan;
+    }
+    100% {
+        background-color: cornsilk;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes lightup {
+    0% {
+        background-color: greenyellow;
+    }
+    100% {
+        background-color: rgba(173, 255, 47, .5);
+    }
+    50% {
+        background-color: black;
+    }
+}

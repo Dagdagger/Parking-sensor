@@ -1,0 +1,62 @@
+[
+    {
+        "number": 1
+        , "timeparked": 305
+        , "timevacant": 0
+        , "vacant": false
+    }
+    , {
+        "number": 2
+        , "timeparked": 1400
+        , "timevacant": 0
+        , "vacant": false
+    }
+    , {
+        "number": 3
+        , "timeparked": 0
+        , "timevacant": 6
+        , "vacant": true
+    }
+    , {
+        "number": 4
+        , "timeparked": 0
+        , "timevacant": 135
+        , "vacant": true
+    }
+    , {
+        "number": 5
+        , "timeparked": 2067
+        , "timevacant": 0
+        , "vacant": false
+    }
+    , {
+        "number": 6
+        , "timeparked": 3700
+        , "timevacant": 0
+        , "vacant": false
+    }
+    , {
+        "number": 7
+        , "timeparked": 10987
+        , "timevacant": 0
+        , "vacant": false
+    }
+    , {
+        "number": 8
+        , "timeparked": 7655
+        , "timevacant": 0
+        , "vacant": false
+    }
+    , {
+        "number": 9
+        , "timeparked": 1600
+        , "timevacant": 0
+        , "vacant": false
+    }
+    , {
+        "number": 10
+        , "timeparked": 2905
+        , "timevacant": 0
+        , "vacant": false
+    }
+]
